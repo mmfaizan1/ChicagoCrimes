@@ -1,0 +1,6 @@
+1. Importing data into SSMS via SQL Server Import/Export Wizard
+2. Cleaning Data
+	- Checking Data Types to make sure we get required data we Need
+		- The colums that needed to convert into correct type were
+			-ID (Float to Int)
+			-Arrest & Domestic (As there is no Boolean in MSSQL so converting Bit to Varchar(TRUE/FALSE or YES/NO) so that it could be more Readable for own sake)
